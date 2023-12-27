@@ -1,1 +1,2 @@
 # KNe-Hunter
+## This repo contains the code for multimessenger alert crossmatching i.e, LIGO alerts and ZTF alert stream. It performs spatial queries for ZTF events within the LIGO GW skymaps. Specifically it fetches the events with 5 days of timeframe of GW event. Utilises the ligthcurve classifier infrastructure at ALeRCE, events will be filtered based on stamp classification, rise time and location of the event. It uses 'delight' to assignt host galaxy location, which WILL be further crossmatched with NED, SIMBAD and local galaxies catalogue HECATE.
